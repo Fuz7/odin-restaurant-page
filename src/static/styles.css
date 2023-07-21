@@ -1,3 +1,66 @@
 body{
+    background-image: url('./background.jpg');
+    display: flex;
+    min-height: 100vh;
+    margin: 0px;
+    width: 100%;
+    align-items: center;
+    flex-direction: column;
+}
+
+.nav{
+    height: 240px;
+    width: 100%;
+    display: grid;
+    grid-template-rows: 150px 1fr;
+    
+}
+
+.nav img{
+    border: #6b9988 groove 10px;
+    border-radius: 4px;
+    height: 130px;
     background-color: white;
+    grid-row: 1/2;
+    justify-self: center;
+}
+
+.navbar{
+    background-color:   #eb81a7;
+    display: flex;
+    justify-content: space-between;
+    padding: 0px 400px ;
+    align-items: center;
+}
+
+.linkButton{
+    background-color: #81ebc5;
+    position: relative;
+    font-family: system-ui;
+    height: fit-content;
+    font-size: 40px;
+    padding: 10px 20px;
+    border: 0;
+    border-radius: 12px;
+    transition: background-color .5s ease;
+    cursor: pointer;
+}
+
+.linkButton::before{
+    content: '';    
+    height: 2px;
+    width: 0;
+    position: absolute;
+    background-color: black;
+    bottom: 10px;
+    left: 12px;
+    transition: all ease .5s;
+}
+
+.linkButton:hover::before{
+    width: 85%;
+}
+
+.linkButton:hover{
+    background-color: #8192eb;
 }
