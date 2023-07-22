@@ -26,12 +26,12 @@ export default function render(){
     homeButton.setAttribute('id','home')
     const menuButton = divChild('Menu')
     menuButton.setAttribute('id','menu')
-    const aboutButton = divChild('About')
-    aboutButton.setAttribute('id','about')
+    const contactButton = divChild('Contact')
+    contactButton.setAttribute('id','contact')
 
     div.appendChild(homeButton)
     div.appendChild(menuButton)
-    div.appendChild(aboutButton)
+    div.appendChild(contactButton)
 
     body.appendChild(nav)
 }
