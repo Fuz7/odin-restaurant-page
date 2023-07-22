@@ -1,5 +1,7 @@
 import logo from './static/pizzalogo.png'
 
+
+
 export default function render(){
     let body = document.getElementById('body')
 
@@ -8,7 +10,7 @@ export default function render(){
 
     let Img = new Image
     Img.src = logo
-    nav.appendChild(Img)
+    
 
     let div = document.createElement('div')
     div.classList.add('navbar')
@@ -21,9 +23,12 @@ export default function render(){
         return          button
     }
     const homeButton = divChild('Home')
+    homeButton.setAttribute('id','home')
     const menuButton = divChild('Menu')
+    menuButton.setAttribute('id','menu')
     const aboutButton = divChild('About')
-    
+    aboutButton.setAttribute('id','about')
+
     div.appendChild(homeButton)
     div.appendChild(menuButton)
     div.appendChild(aboutButton)
@@ -31,3 +36,11 @@ export default function render(){
     body.appendChild(nav)
 }
 
+export let initializeListener = () =>{
+    let body = document.getElementById('body')
+    let homeButton = document.addEventListener('click',function(){
+        body.innerHTML = ''
+        render()
+        
+    })
+}
