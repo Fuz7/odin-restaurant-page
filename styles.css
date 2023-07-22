@@ -15,7 +15,7 @@ p{
 }
 
 body{
-    background-image: linear-gradient(rgba(0,0,0,0.45),rgba(0,0,0,0.45)),url(6c1331bf5c2ba4da7ea9.jpg);
+    background-image: linear-gradient(rgba(0,0,0,0.45),rgba(0,0,0,0.45)),url(image/background.jpg);
     background-size: 120vw;
     display: flex;
     min-height: 100vh;
@@ -101,7 +101,7 @@ body{
 .footer a{
     width: 35px;
     height: 35px;
-    background-image: url(690829d147fbd494ec6e.svg);
+    background-image: url(image/git-icon.svg);
     background-size: contain;
     background-repeat: no-repeat;
     z-index: 1;
@@ -235,7 +235,7 @@ body{
     background-color: #eb81a7;
     margin-top: 40px;
     border-radius: 20px;
-    background-image: url(cefa03af9c1e715d10d7.png);
+    background-image: url(image/papa-chef.png);
     background-repeat: no-repeat;
     background-position: center center;
 }
