@@ -86,10 +86,10 @@ export default function render(){
     'Softened, Unsalted Butter, All-Purpose Flour, Brown Sugar, Sugar.' ))
 
     menuContainer.append(createCard(r9,"Rico's Chli Dogs",'2.99',
-    'Cheddar Cheese, Onion, Unsweetened Chocolate, Tomato Sauce, Ground Beef, Hotdogs, Hotdog Buns' ))
+    'Cheddar Cheese, Onion, Unsweetened Chocolate, Tomato Sauce, Ground Beef, Hotdogs, Hotdog Buns.' ))
     
     menuContainer.append(createCard(r10,"Romano Quartet Pizza",'4.99',
-    'Pizza Sauce, Pizza Dough, Mozzarella Cheese, Pepperoni, Italian Sausage, Canned Mushrooms, Bell Pepper' ))
+    'Pizza Sauce, Pizza Dough, Mozzarella Cheese, Pepperoni, Italian Sausage, Canned Mushrooms, Bell Pepper.' ))
 
     body.append(menuContainer)
 }
