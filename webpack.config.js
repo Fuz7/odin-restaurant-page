@@ -46,11 +46,10 @@ module.exports = {
       },
       {
         test: /\.(png|svg|jpg|jpeg|gif)$/i,
-        type: 'asset/resource'
-      },
-      {
-        test: /\.(png|svg|jpg|jpeg|gif)$/i,
         type: 'asset/resource',
+        generator: {
+          filename: 'image/[name][ext]' // Output image filename with image/ prefix
+        }
       },
       {
         test: /\.(csv|tsv)$/i,
