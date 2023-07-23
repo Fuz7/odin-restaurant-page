@@ -56,6 +56,10 @@ module.exports = {
         use: ['csv-loader'],
       },
       {
+        test: /\.(woff|woff2|eot|ttf|otf)$/i,
+        type: 'asset/resource',
+      },
+      {
         test: /\.xml$/i,
         use: ['xml-loader'],
       },
