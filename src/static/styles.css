@@ -41,7 +41,7 @@ body{
     width: 100%;
     justify-self: center;
     align-items: center;
-    border-radius: 10px;
+    box-shadow: 4px 0px 13px 1px;
 }
 
 .linkButton{
@@ -88,6 +88,7 @@ body{
     align-items: center;
     padding-bottom: 10px;
     font-size: 20px;
+    box-shadow: 0px 1px 14px 0px black;
 }
 
 .footer p{
@@ -115,6 +116,7 @@ body{
     flex-direction: column;
     align-items: center;
     justify-content: space-around;
+    box-shadow: 5px 5px 12px 1px #333;
 }
 
 .homeContainer img{
@@ -184,6 +186,7 @@ body{
     gap: 60px;
     justify-content: space-between;
     flex-wrap: wrap;
+    box-shadow: 5px 5px 12px 1px #333;
 }
 
 .menuContainer .card{
@@ -236,4 +239,5 @@ body{
     background-image: url(papa-chef.png);
     background-repeat: no-repeat;
     background-position: center center;
+    box-shadow: 5px 5px 12px 1px #333
 }
